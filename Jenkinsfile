@@ -14,7 +14,7 @@ pipeline {
             steps { echo "Performing code analysis using SonarQube tool" }
         }
         stage('Security Scan') {
-            steps { echo "Scanning for vulnerabilities using OWASP Dependency-Check tool" }
+            steps { echo "Scanning for vulnerabilities using OWASP Dependency-Check tool " }
         }
         stage('Deploy to Staging') {
             steps { echo "Deploying the application to AWS EC2 staging environment" }
