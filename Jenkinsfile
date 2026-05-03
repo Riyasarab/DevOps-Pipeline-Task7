@@ -8,7 +8,7 @@ pipeline {
             steps { echo "Executing unit tests using JUnit framework " }
         }
         stage('Integration Tests') {
-            steps { echo "Running integration tests using Selenium tool" }
+            steps { echo "Running integration tests using Selenium tool " }
         }
         stage('Code Analysis') {
             steps { echo "Performing code analysis using SonarQube tool" }
