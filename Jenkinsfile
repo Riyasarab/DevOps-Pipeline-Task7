@@ -17,7 +17,7 @@ pipeline {
             steps { echo "Scanning for vulnerabilities using OWASP Dependency-Check tool   " }
         }
         stage('Deploy to Staging') {
-            steps { echo "Deploying the application to AWS EC2 staging environment" }
+            steps { echo "Deploying the application to AWS EC2 staging environment  " }
         }
         stage('Deploy to Production') {
             steps { echo "Deploying the application to AWS EC2 production environment   " }
