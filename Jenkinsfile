@@ -20,7 +20,7 @@ pipeline {
             steps { echo "Deploying the application to AWS EC2 staging environment" }
         }
         stage('Deploy to Production') {
-            steps { echo "Deploying the application to AWS EC2 production environment " }
+            steps { echo "Deploying the application to AWS EC2 production environment   " }
         }
     }
 }
