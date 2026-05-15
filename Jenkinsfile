@@ -2,7 +2,7 @@ pipeline {
     agent any
     stages {
         stage('Build') {
-            steps { echo "Building the project using Maven tool " }
+            steps { echo "Building the project using Maven tool UPDATE " }
         }
         stage('Unit Tests') {
             steps { echo "Executing unit tests using JUnit framework   " }
