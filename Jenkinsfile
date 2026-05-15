@@ -5,7 +5,7 @@ pipeline {
             steps { echo "Building the project using Maven tool UPDATE " }
         }
         stage('Unit Tests') {
-            steps { echo "Executing unit tests using JUnit framework   " }
+            steps { echo "Executing unit tests using JUnit framework UPDATE   " }
         }
         stage('Integration Tests') {
             steps { echo "Running integration tests using Selenium tool   " }
